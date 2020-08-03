@@ -1,4 +1,5 @@
 PennController.SetCounter("counter","inc", 1)
+// check
 PennController.ResetPrefix(null)
 Sequence("counter", "welcome" , rshuffle("Hom","Neg_dist","Neg_coll") , "send" , "final" )
 newTrial( "welcome" ,
